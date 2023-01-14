@@ -1,0 +1,58 @@
+<!-- Fichier utilisé pour la partie Vue du pattern MVC -->
+<Window x:Class="DemoWPF.EcranPersonnes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoWPF"
+        mc:Ignorable="d"
+        Title="Ecran Personnes" Height="450" Width="800" >
+    <Border Padding="15" >
+        <StackPanel>
+            <!-- Formulaire -->
+            <Grid>
+                <!-- Deux colonnes -->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <!-- N lignes -->
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <!-- N labels à gauche des champs de saisies -->
+                <Label Grid.Row="0" Content="Prénom" />
+                <Label Grid.Row="1" Content="Nom" />
+                <Label Grid.Row="2" Content="Email" />
+                <Label Grid.Row="3" Content="DateNaissance" />
+                <!-- N champs de saisies -->
+                <TextBox Grid.Column="1" Grid.Row="0" Text="{ Binding Prenom }" Name="Prenom" />
+                <TextBox Grid.Column="2" Grid.Row="1" Text="{ Binding Nom }" Name="Nom" />
+                <TextBox Grid.Column="3" Grid.Row="2" Text="{ Binding Email }" Name="Email" />
+                <DatePicker Grid.Column="4" Grid.Row="3" Text="{ Binding DateNaissance }" Name="DateNaissance" />
+            </Grid>
+            <!-- Barre de boutons -->
+            <StackPanel Orientation="Horizontal" Margin="5,5,5,5" >
+                <Button Content="&lt;&lt; Prédédent" Click="Precedent" />
+                <Button Content="Nouveau" Click="Nouveau" />
+                <Button Content="Ajouter" Click="Ajouter" />
+                <Button Content="Modifier" Click="Modifier" />
+                <Button Content="Supprimer" Click="Supprimer" />
+                <Button Content="Suivant &gt;&gt;" Click="Suivant" />
+            </StackPanel>
+            <!-- Affichage des données au format tabulaire -->
+            <DataGrid Name="DataGrid1" AutoGenerateColumns="False" >
+                <DataGrid.Columns>
+                    <!-- N colonnes -->
+                    <DataGridTextColumn Header="Prénom" Binding="{ Binding Prenom }" />
+                    <DataGridTextColumn Header="Nom" Binding="{ Binding Nom }" />
+                    <DataGridTextColumn Header="Email" Binding="{ Binding Email }" />
+                    <DataGridTextColumn Header="DateNaissance" Binding="{ Binding DateNaissance }" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </Border>
+</Window>

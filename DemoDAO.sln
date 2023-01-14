@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDAO", "DemoDAO\DemoDAO.csproj", "{1CCD5D5A-5B24-467E-9EBD-26B94B17FE64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWPF", "DemoWPF\DemoWPF.csproj", "{3EE24037-2CF7-4F0F-8F64-4AF02A9530AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoConsole", "DemoConsole\DemoConsole.csproj", "{7C0B0441-2EEA-4BCA-8D11-2B1D424711A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CCD5D5A-5B24-467E-9EBD-26B94B17FE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCD5D5A-5B24-467E-9EBD-26B94B17FE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCD5D5A-5B24-467E-9EBD-26B94B17FE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCD5D5A-5B24-467E-9EBD-26B94B17FE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE24037-2CF7-4F0F-8F64-4AF02A9530AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE24037-2CF7-4F0F-8F64-4AF02A9530AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE24037-2CF7-4F0F-8F64-4AF02A9530AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE24037-2CF7-4F0F-8F64-4AF02A9530AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0B0441-2EEA-4BCA-8D11-2B1D424711A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0B0441-2EEA-4BCA-8D11-2B1D424711A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0B0441-2EEA-4BCA-8D11-2B1D424711A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0B0441-2EEA-4BCA-8D11-2B1D424711A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
