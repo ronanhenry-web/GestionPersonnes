@@ -7,7 +7,7 @@ Gestion des comptes utilisateurs (CRUD) avec MySQL
 Le projet a été créé sous JetBrains, pour le démarrer suivre les étapes suivantes.
 
 - Cloner le projet
-- Avoir une BDD "sharpdao" les erreurs SQL indiquant de créer des tables ou passer la BDD en console
+- Avoir une BDD "sharpdao" et suivre les erreurs SQL indiquant de créer des tables ou passer la BDD en console
 - Compiler le fichier main
 
 ## Sources & Outils
