@@ -1,15 +1,15 @@
-# Projet GestionPersonnes
+# PersonManagement Project
 
-Gestion des comptes utilisateurs (CRUD) avec MySQL
+User Account Management (CRUD) with MySQL
 
-## Démarrer
+## Getting Started
 
-Le projet a été créé sous JetBrains, pour le démarrer suivre les étapes suivantes.
+The project was created using JetBrains. To get it running, follow these steps :
 
-- Cloner le projet
-- Avoir une BDD "sharpdao" et suivre les erreurs SQL indiquant de créer des tables ou passer la BDD en console
-- Compiler le fichier main
+- Clone the project
+- Set up a "sharpdao" database and address any SQL errors indicating missing tables or execute the database commands in the console
+- Compile the main file
 
-## Sources & Outils
+## Sources & Tools
 
 <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a>
